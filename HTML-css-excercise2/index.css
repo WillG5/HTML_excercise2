@@ -1,0 +1,104 @@
+@font-face{
+    font-family: 'Nanum Brush Script', cursive; src: url("https://fonts.google.com/?category=Sans+Serif,Display,Handwriting,Monospace&query=nan&selection.family=Nanum+Brush+Script");
+}
+@font-face{
+    font-family: 'Seaweed Script', cursive;
+}
+
+html{
+    max-width: 800px;
+    background-color: grey;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    font-family: "Nanum Brush Script";
+    
+}
+
+body{
+    
+    max-width: 800px;
+    border: 1px solid;
+    background-color: white;
+    
+}
+
+header{
+    padding: 0px 55px;
+    font-family: "Seaweed Script";
+
+}
+.img_1{
+    height: auto;
+    width: 40%;
+    border: 1px solid;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    float: right;
+    box-shadow: 10px 10px #999;
+    vertical-align: middle;
+       
+}
+
+p{
+    width: 40%;
+    padding: 0px 15px;
+    
+}
+
+.pg_1, .img_1{
+    display: inline-flex; 
+    flex-wrap: wrap;
+    justify-content: right;
+    justify-content: space-around;
+    padding: 10px 20px;
+    
+} 
+
+.pg_2, .img_2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 20px 20px;
+
+}
+
+.img_2{
+    height: auto;
+    width: 20%;
+    border: 1px solid;
+    padding: 10px 10px;
+    float: left;
+    padding-bottom: 10px;
+    
+    box-shadow: 10px 10px #999;
+    
+    justify-content: center;
+    
+}
+/* .pg_2{
+    display: flex;
+    justify-content: right;
+     
+}
+.p_2{
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0px 20px;
+    padding-left: 50%;
+    
+    
+}
+
+.img_2{
+    height: auto;
+    width: 40%;
+    border: 1px solid;
+    padding: 0px 10px;
+}
+
+.p_2, .img_2{
+    display: flex;
+    justify-content: left;
+}  */
